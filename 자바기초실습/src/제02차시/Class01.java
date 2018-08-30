@@ -1,6 +1,6 @@
 package 제02차시;
 
-class Class01 {
+public class Class01 {
 	int i=0;
 	
 	Class01(){
@@ -18,7 +18,7 @@ class Class01 {
 		i+=5;
 		System.out.println("doIt() : I'm doIt() method, a.k.a member function.");
 		System.out.println("doIt() : Call me whenever you need me. I'll be right there.");
-		System.out.println("i : I'm i. How do you call me name? Oh, common, buddy. Field or member variable.");
+		System.out.println("i : I'm i. How do you call my name? Oh, common. Field or member variable, 'i' said.");
 		System.out.println("Current i : " + i);
 	}
 
