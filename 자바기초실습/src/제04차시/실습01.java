@@ -1,5 +1,5 @@
 package 제04차시;
-import java.io.*;
+import java.io.IOException;
 
 public class 실습01 {
 

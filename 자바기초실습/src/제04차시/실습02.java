@@ -1,5 +1,5 @@
 package 제04차시;
-import java.io.*;
+import java.io.IOException;		//Ctrl + shift + o -> import 자동 완성
 
 public class 실습02 {
 	public static void main(String[] args) {
