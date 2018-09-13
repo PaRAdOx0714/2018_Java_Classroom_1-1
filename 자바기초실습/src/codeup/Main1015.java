@@ -1,5 +1,4 @@
 package codeup;
-
 import java.util.Scanner;
 
 public class Main1015 {
