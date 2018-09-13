@@ -9,9 +9,10 @@ public class ans13 {
 		sc.useDelimiter("\n");
 		System.out.print("직원코드: ");
 		String a = sc.nextLine();
-		if(a.charAt(3)==1)
+		int b = a.length();
+		if(a.charAt(b)==1)
 			System.out.println("부서: 총무부");
-		else if(a.charAt(3)==2)
+		else if(a.charAt(b)==2)
 			System.out.println("부서: 인사부");
 		else
 			System.out.println("부서: 영업부");

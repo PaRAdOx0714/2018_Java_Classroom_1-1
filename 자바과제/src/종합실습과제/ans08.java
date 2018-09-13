@@ -6,7 +6,6 @@ public class ans08 {
 
 	public static void main(String[] args) {
 		Scanner sc = new Scanner(System.in);
-		sc.useDelimiter("\r|\n|,");
 		int a;
 		System.out.print("정수: ");
 		a = sc.nextInt();
