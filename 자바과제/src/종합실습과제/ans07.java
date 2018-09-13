@@ -8,10 +8,10 @@ public class ans07 {
 		int a, b;
 		Scanner sc = new Scanner(System.in);
 		sc.useDelimiter("\r|\n|,");
+		System.out.print("두 정수: ");
 		a = sc.nextInt();
 		b = sc.nextInt();
 		
-		System.out.println("두 정수: " + a + "," + b);
 		System.out.println("a AND b:" + (a & b));
 		System.out.println("a OR b: " + (a | b));
 		System.out.println("NOT a: " + ~a);

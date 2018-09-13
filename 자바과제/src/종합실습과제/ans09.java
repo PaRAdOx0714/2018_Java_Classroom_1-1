@@ -6,9 +6,11 @@ public class ans09 {
 
 	public static void main(String[] args) {
 		Scanner sc = new Scanner(System.in);
+		System.out.print("나이: ");
 		int a;
 		a = sc.nextInt();
-		System.out.println("나이: " + a);
+		sc.nextLine();
+		
 		if(a<=6 || a>=70) {
 			System.out.println("무료입장");
 		}

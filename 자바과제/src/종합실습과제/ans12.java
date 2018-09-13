@@ -8,11 +8,12 @@ public class ans12 {
 		Scanner sc = new Scanner(System.in);
 		int a,b,av;
 		sc.useDelimiter("\r|\n|,");
+		System.out.print("두 과목 점수: ");
 		a = sc.nextInt();
 		b= sc.nextInt();
 		av = (a+b)/2;
 		
-		System.out.println("두 과목 점수: " + a + "," + b);
+		
 		if(av>=60 && a>=40 && b>=40)
 			System.out.println("결과: 합격");
 		else if(av>=60 && (a<40 || b<40))

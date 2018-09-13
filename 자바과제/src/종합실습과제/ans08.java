@@ -8,9 +8,10 @@ public class ans08 {
 		Scanner sc = new Scanner(System.in);
 		sc.useDelimiter("\r|\n|,");
 		int a;
+		System.out.print("정수: ");
 		a = sc.nextInt();
+		sc.nextLine();
 		
-		System.out.println("정수: " + a);
 		System.out.println("절댓값: " + (a<0?(a*-1):a));
 		
 
