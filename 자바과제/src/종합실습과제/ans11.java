@@ -19,7 +19,8 @@ public class ans11 {
 		y2 = sc.nextInt();
 		r2 = sc.nextInt();
 		
-		int q = (int)Math.pow(x2-x1,2) + (int)Math.pow(y2-y1, 2);
+		int q = (int)
+				Math.pow(x2-x1,2) + (int)Math.pow(y2-y1, 2);
 		int d = (int)Math.pow(q,0.5);
 		if(d<(r1 + r2)) 
 			System.out.println("판정: 겹침");

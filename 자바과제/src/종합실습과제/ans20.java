@@ -8,11 +8,14 @@ public class ans20 {
 		Scanner sc = new Scanner(System.in);
 		System.out.print("주민등록번호 12자리: ");
 		String a = sc.nextLine();
-		int tmp=0;
-		for(i=0;i<=11;i++) {
-			tmp+=a.
+		char pn[]=a.toCharArray();
+		int s=0;
+		for(int i=0;i<=11;i++) {
+			pn[i]-='0';
+			s+=pn[i]*(i%8+2);
 		}
-		
+		int t=s%11;
+		System.out.println("13번째 수: " + (11-t)%10);
 
 	}
 
