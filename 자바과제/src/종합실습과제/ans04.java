@@ -11,7 +11,7 @@ public class ans04 {
 		a = sc.nextLine();
 		
 		System.out.println("대문자: " + a.toUpperCase());
-		
+		sc.close();
 
 	}
 

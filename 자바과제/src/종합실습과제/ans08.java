@@ -12,6 +12,7 @@ public class ans08 {
 		sc.nextLine();
 		
 		System.out.println("절댓값: " + (a<0?(a*-1):a));
+		sc.close();
 		
 
 	}

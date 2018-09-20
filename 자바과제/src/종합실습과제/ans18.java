@@ -12,7 +12,7 @@ public class ans18 {
 		int z = 'Z';
 		for(char i=b;i<=z;i++)
 			System.out.print(i+" ");
-		
+		sc.close();
 
 	}
 

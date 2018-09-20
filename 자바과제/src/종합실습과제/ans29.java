@@ -18,6 +18,7 @@ public class ans29 {
 			if(a%i==0 && b%i==0 && c%i==0) 
 				GCD=i;
 		System.out.println("최대공약수(GCD): " + GCD);
+		sc.close();
 
 		
 		}

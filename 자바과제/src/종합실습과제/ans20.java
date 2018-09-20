@@ -16,7 +16,7 @@ public class ans20 {
 		}
 		int t=s%11;
 		System.out.println("13번째 수: " + (11-t)%10);
-
+		sc.close();
 	}
 
 }

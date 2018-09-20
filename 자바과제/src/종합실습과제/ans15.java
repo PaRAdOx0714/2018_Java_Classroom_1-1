@@ -30,7 +30,7 @@ public class ans15 {
 		}
 		default: System.out.print("E");
 		}
-		
+		sc.close();
 
 	}
 

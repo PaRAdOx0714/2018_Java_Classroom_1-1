@@ -16,6 +16,7 @@ public class ans09 {
 		}
 		else
 			System.out.println("유료입장");
+		sc.close();
 
 	}
 

@@ -28,6 +28,7 @@ public class ans11 {
 			System.out.println("판정: 접함");
 		else
 			System.out.println("판정: 만나지 않음");
+		sc.close();
 		
 	}
 

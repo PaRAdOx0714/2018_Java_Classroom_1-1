@@ -13,7 +13,7 @@ public class ans16 {
 		
 		for(int i=m;i<=n;i++)
 			System.out.print(i+" ");
-
+		sc.close();
 	}
 
 }

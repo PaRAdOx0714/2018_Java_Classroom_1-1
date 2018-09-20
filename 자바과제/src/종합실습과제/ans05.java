@@ -15,7 +15,7 @@ public class ans05 {
 		s = (a%3600)%60;
 		
 		System.out.printf("%02d시간%02d분%02d초", h, m, s);
-
+		sc.close();
 	}
 
 }

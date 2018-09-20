@@ -16,7 +16,7 @@ public class ans13 {
 			System.out.println("부서: 인사부");
 		else
 			System.out.println("부서: 영업부");
-
+		sc.close();
 	}
 
 }

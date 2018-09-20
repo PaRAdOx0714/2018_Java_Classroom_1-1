@@ -12,6 +12,7 @@ public class ans21 {
 		for(int i=1;i<=a;i++)
 			tmp+=(int)Math.pow(i, 2);
 		System.out.println("결과: " + tmp);
+		sc.close();
 	}
 
 }

@@ -20,6 +20,7 @@ public class ans28 {
 			}
 				
 		}
+		sc.close();
 
 	}
 

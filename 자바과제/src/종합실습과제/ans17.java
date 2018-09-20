@@ -12,7 +12,7 @@ public class ans17 {
 		
 		for(int i=b;i>=a;i--)
 			System.out.print(i+" ");
-
+		sc.close();
 	}
 
 }

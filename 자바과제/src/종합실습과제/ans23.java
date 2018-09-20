@@ -26,7 +26,7 @@ public class ans23 {
 		}
 		System.out.println("갯수: " + (cnt3+cnt5+cnt15));
 		System.out.println("합계: " + (tmp + tmp15));
-
+		
 	}
 
 }

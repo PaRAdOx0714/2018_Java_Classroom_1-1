@@ -17,7 +17,7 @@ public class ans22 {
 		}
 		System.out.println();
 		System.out.println("약수의 개수: " + cnt);
-
+		sc.close();
 	}
 
 }

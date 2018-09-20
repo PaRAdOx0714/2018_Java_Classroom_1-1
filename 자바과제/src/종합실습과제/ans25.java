@@ -13,6 +13,7 @@ public class ans25 {
 			tmp+=i;
 			System.out.print(tmp + " ");
 		}
+		sc.close();
 	}
 
 }

@@ -13,6 +13,7 @@ public class ans02 {
 		
 		System.out.println("몫:" + a/b);
 		System.out.println("나머지:" + a%b);
+		sc.close();
 
 	}
 

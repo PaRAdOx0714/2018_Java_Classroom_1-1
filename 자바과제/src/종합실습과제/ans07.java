@@ -18,6 +18,7 @@ public class ans07 {
 		System.out.println("a XOR b: " + (a^b));
 		System.out.println("a NAND b: " + ~(a & b));
 		System.out.println("a NOR b: " + ~(a | b));
+		sc.close();
 	}
 
 }

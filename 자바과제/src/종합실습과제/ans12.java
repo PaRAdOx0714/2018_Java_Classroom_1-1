@@ -20,7 +20,7 @@ public class ans12 {
 			System.out.println("결과: 불합격(과락)");
 		else
 			System.out.println("결과: 불합격");
-		
+		sc.close();
 	}
 
 }

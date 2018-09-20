@@ -18,7 +18,7 @@ public class ans26 {
 		}
 		System.out.println();
 		System.out.println("수열의 합: " + tmp);
-		
+		sc.close();
 
 	}
 

@@ -11,6 +11,7 @@ public class ans03 {
 		a = sc.nextInt();
 		
 		System.out.printf("화씨온도(F): %.2f도", ((float)a*1.8)+32);
+		sc.close();
 		
 
 	}

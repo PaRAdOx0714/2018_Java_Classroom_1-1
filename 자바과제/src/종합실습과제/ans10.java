@@ -13,7 +13,7 @@ public class ans10 {
 			System.out.println("성별: 여자");
 		else
 			System.out.println("성별: 남자");
-
+		sc.close();
 	}
 
 }
