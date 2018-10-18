@@ -7,26 +7,23 @@ public class ans50 {
 		int tmp=1;
 		int h=0,y=2;
 		arr[h][y]=tmp++;
-		//System.out.println(1);
 		while(tmp<=25) {
-			if(h-1<0)
+			h--; y++;
+			if(h<0 && y<=4)
 				h=4;
-			if(y+1>4)
+			else if(y>4 && h>=0)
 				y=0;
-			if(arr[h-1][y+1]!=0)
-				h++;
-			if(h-1<0 && y+1>4) 
-				h++;
-			
-			arr[h-1][y+1]=tmp++;
+			else if(tmp%5==1) {
+				h+=2;
+				y--;
+			}
+			arr[h][y]=tmp++;
 		}
-		//System.out.println(2);
 		for(int i=0;i<5;i++) {
 			for(int j=0;j<5;j++)
 				System.out.printf("%2d ", arr[i][j]);
 			System.out.println();
 		}
-		//System.out.println(3);
 	}
 
 }
